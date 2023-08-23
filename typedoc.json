@@ -1,0 +1,16 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "plugin": ["typedoc-plugin-markdown"],
+  // "markdownPlugin": {
+  //   "id": "markdown",
+  //   "hideInPageTOC": true,
+  //   "hideBreadcrumbs": true,
+  //   "hideSources": true,
+  //   "namedAnchors": true,
+  //   "mediaDirectory": "media"
+  // }
+}

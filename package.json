@@ -1,0 +1,48 @@
+{
+  "name": "jjeff-typescript-template",
+  "version": "0.0.0-development",
+  "description": "Starter template for my projects",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc",
+    "docs": "typedoc",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "semantic-release": "semantic-release",
+    "semantic-release:ci": "semantic-release --ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjeff/node-typescript-template.git"
+  },
+  "author": "Jeff Robbins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjeff/node-typescript-template/issues"
+  },
+  "homepage": "https://github.com/jjeff/node-typescript-template#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "chai": "^4.3.7",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "prettier": "2.8.8",
+    "semantic-release": "^21.0.1",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.24.8",
+    "typedoc-plugin-markdown": "^3.15.4",
+    "typescript": "^5.1.6"
+  }
+}
