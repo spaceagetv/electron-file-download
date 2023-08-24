@@ -8,6 +8,7 @@
     "file",
     "progress"
   ],
+  "homepage": "https://github.com/spaceagetv/electron-file-download#readme",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -30,14 +31,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spaceagetv/electron-file-download.git"
+    "url": "git+https://github.com/spaceagetv/electron-file-download.git"
   },
   "author": "Jeff Robbins",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/spaceagetv/electron-file-download/issues"
   },
-  "homepage": "https://github.com/spaceagetv/electron-file-download#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^10.0.1",
