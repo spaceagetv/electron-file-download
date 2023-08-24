@@ -1,14 +1,25 @@
 {
-  "name": "jjeff-typescript-template",
+  "name": "electron-file-download",
   "version": "0.0.0-development",
-  "description": "Starter template for my projects",
+  "description": "Easy dependency-free downloads for Electron's main process with progress, pause, and cancel",
+  "keywords": [
+    "electron",
+    "download",
+    "file",
+    "progress"
+  ],
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "directories": {
+    "lib": "src",
+    "doc": "docs",
     "test": "test"
   },
   "scripts": {
-    "test": "mocha",
-    "build": "tsc",
+    "test": "electron-mocha",
+    "build": "tsc --project tsconfig.build.json",
     "docs": "typedoc",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
@@ -19,29 +30,42 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jjeff/node-typescript-template.git"
+    "url": "https://github.com/spaceagetv/electron-file-download.git"
   },
   "author": "Jeff Robbins",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jjeff/node-typescript-template/issues"
+    "url": "https://github.com/spaceagetv/electron-file-download/issues"
   },
-  "homepage": "https://github.com/jjeff/node-typescript-template#readme",
+  "homepage": "https://github.com/spaceagetv/electron-file-download#readme",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^10.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.0.4",
+    "@semantic-release/npm": "^10.0.5",
+    "@semantic-release/release-notes-generator": "^11.0.4",
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
+    "@types/sinon": "^10.0.16",
     "@typescript-eslint/eslint-plugin": "^5.59.1",
     "@typescript-eslint/parser": "^5.59.1",
     "chai": "^4.3.7",
+    "conventional-changelog-conventionalcommits": "^6.1.0",
+    "electron": "^26.0.0",
+    "electron-mocha": "^12.0.1",
     "eslint": "^8.39.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "mocha": "^10.2.0",
     "prettier": "2.8.8",
-    "semantic-release": "^21.0.1",
+    "semantic-release": "^21.1.1",
+    "sinon": "^15.2.0",
     "ts-node": "^10.9.1",
+    "typed-emitter": "^2.1.0",
     "typedoc": "^0.24.8",
+    "typedoc-github-wiki-theme": "^1.1.0",
     "typedoc-plugin-markdown": "^3.15.4",
     "typescript": "^5.1.6"
   }

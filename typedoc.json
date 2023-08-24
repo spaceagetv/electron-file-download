@@ -5,6 +5,8 @@
   "excludeProtected": true,
   "excludeExternals": true,
   "plugin": ["typedoc-plugin-markdown"],
+  "excludeInternal": true,
+  "readme": "none",
   // "markdownPlugin": {
   //   "id": "markdown",
   //   "hideInPageTOC": true,
