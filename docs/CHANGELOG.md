@@ -1,6 +1,6 @@
-# 1.0.0 (2023-08-24)
+## [1.0.1](https://github.com/spaceagetv/electron-file-download/compare/v1.0.0...v1.0.1) (2023-08-24)
 
 
-### Features
+### Bug Fixes
 
-* 🌟 initial functionality ([8a39e39](https://github.com/spaceagetv/electron-file-download/commit/8a39e3991a6d3815167d89aafbf60920a7538725))
+* proper repository url in package.json ([1e6fc10](https://github.com/spaceagetv/electron-file-download/commit/1e6fc10a0d803b04e1fd68a35b546aadbbd49a70))
