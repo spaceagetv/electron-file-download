@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/spaceagetv/electron-file-download/compare/v1.0.3...v1.0.4) (2023-08-25)
+
+
+### Bug Fixes
+
+* package.json for semantic-release ([c0cd139](https://github.com/spaceagetv/electron-file-download/commit/c0cd1393ac31b74e07817cd4e88ad3d1c5c888a2))
+
 ## [1.0.3](https://github.com/spaceagetv/electron-file-download/compare/v1.0.2...v1.0.3) (2023-08-25)
 
 
