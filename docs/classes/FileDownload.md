@@ -99,7 +99,7 @@ fileDownload.on('completed', (destination) => {
 
 #### Defined in
 
-[FileDownload.ts:267](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L267)
+[FileDownload.ts:267](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L267)
 
 ## Properties
 
@@ -111,7 +111,7 @@ The directory to download to. Will default to app.getPath('temp' + '/DL_TEMP')
 
 #### Defined in
 
-[FileDownload.ts:227](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L227)
+[FileDownload.ts:227](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L227)
 
 ___
 
@@ -123,7 +123,7 @@ The path to the downloaded file to (including filename)
 
 #### Defined in
 
-[FileDownload.ts:214](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L214)
+[FileDownload.ts:214](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L214)
 
 ___
 
@@ -144,7 +144,7 @@ https://www.electronjs.org/docs/api/download-item
 
 #### Defined in
 
-[FileDownload.ts:238](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L238)
+[FileDownload.ts:238](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L238)
 
 ___
 
@@ -165,7 +165,7 @@ The logger to use - console, electron-log, winston, etc - defaults to no-op func
 
 #### Defined in
 
-[FileDownload.ts:217](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L217)
+[FileDownload.ts:217](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L217)
 
 ___
 
@@ -177,7 +177,7 @@ The url to download from
 
 #### Defined in
 
-[FileDownload.ts:211](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L211)
+[FileDownload.ts:211](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L211)
 
 ## Methods
 
@@ -195,7 +195,7 @@ Calls the Electron DownloadItem.cancel() method
 
 #### Defined in
 
-[FileDownload.ts:455](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L455)
+[FileDownload.ts:455](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L455)
 
 ___
 
@@ -213,7 +213,7 @@ Calls the Electron DownloadItem.pause() method
 
 #### Defined in
 
-[FileDownload.ts:433](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L433)
+[FileDownload.ts:433](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L433)
 
 ___
 
@@ -231,7 +231,7 @@ Calls the Electron DownloadItem.resume() method
 
 #### Defined in
 
-[FileDownload.ts:444](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L444)
+[FileDownload.ts:444](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L444)
 
 ___
 
@@ -249,4 +249,4 @@ The path to the downloaded file
 
 #### Defined in
 
-[FileDownload.ts:403](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L403)
+[FileDownload.ts:403](https://github.com/spaceagetv/electron-file-download/blob/0753c2f/src/FileDownload.ts#L403)
