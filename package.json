@@ -1,5 +1,5 @@
 {
-  "name": "@spaceagetv/electron-file-download",
+  "name": "electron-file-downloader",
   "version": "1.0.5",
   "description": "Easy dependency-free downloads for Electron's main process with progress, pause, and cancel",
   "keywords": [
