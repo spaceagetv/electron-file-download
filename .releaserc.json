@@ -32,14 +32,14 @@
     [
       "@semantic-release/changelog",
       {
-        "changelogFile": "docs/CHANGELOG.md"
+        "changelogFile": "CHANGELOG.md"
       }
     ],
     [
       "@semantic-release/git",
       {
         "assets": [
-          "docs/CHANGELOG.md",
+          "CHANGELOG.md",
           "README.md",
           "package.json",
           "package-lock.json"

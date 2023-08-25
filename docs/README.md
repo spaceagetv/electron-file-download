@@ -30,7 +30,7 @@ Optional dependencies for FileDownload
 
 #### Defined in
 
-[FileDownload.ts:32](https://github.com/spaceagetv/electron-file-download/blob/d54f0b4/src/FileDownload.ts#L32)
+[FileDownload.ts:32](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L32)
 
 ___
 
@@ -63,7 +63,7 @@ fileDownload.on('progress', (progress) => {
 
 #### Defined in
 
-[FileDownload.ts:51](https://github.com/spaceagetv/electron-file-download/blob/d54f0b4/src/FileDownload.ts#L51)
+[FileDownload.ts:51](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L51)
 
 ## Events
 
@@ -98,4 +98,4 @@ fileDownload.on('completed', (destination) => {
 
 #### Defined in
 
-[FileDownload.ts:155](https://github.com/spaceagetv/electron-file-download/blob/d54f0b4/src/FileDownload.ts#L155)
+[FileDownload.ts:155](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L155)

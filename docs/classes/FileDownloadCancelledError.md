@@ -42,4 +42,4 @@ fileDownload.on('error', (error) => {
 
 #### Defined in
 
-[FileDownload.ts:109](https://github.com/spaceagetv/electron-file-download/blob/d54f0b4/src/FileDownload.ts#L109)
+[FileDownload.ts:109](https://github.com/spaceagetv/electron-file-download/blob/1e6fc10/src/FileDownload.ts#L109)
