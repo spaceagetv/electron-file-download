@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+env:
+  # electron-mocha needs this to run on Ubuntu - defines the X Server display to use
+  DISPLAY: "$HOST_IP:0.0"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +16,10 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
+        include:
+          - os: ubuntu-latest
+            # https://github.com/jprichardson/electron-mocha/issues/186#issuecomment-873530087
+            ubuntu-prefix: export DISPLAY=:45 && xvfb-run --server-num 45
 
     steps:
       - uses: actions/checkout@v3
@@ -26,4 +34,4 @@ jobs:
       - name: Run linter
         run: npm run lint
       - name: Run tests
-        run: npm test
+        run: ${{ matrix.ubuntu-prefix }} npm test

@@ -20,5 +20,6 @@
     // allow unused variables prefixed with underscore
     "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
     "no-async-promise-executor": "off"
-  }
+  },
+  "ignorePatterns": ["dist/", "node_modules/"]
 }
