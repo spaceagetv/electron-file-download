@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/spaceagetv/electron-file-download/compare/v1.0.4...v1.0.5) (2023-08-25)
+
+
+### Bug Fixes
+
+* scope the package name ([edea4c3](https://github.com/spaceagetv/electron-file-download/commit/edea4c3e557e5fa36ec56c14aae6897757ef5c28))
+
 ## [1.0.4](https://github.com/spaceagetv/electron-file-download/compare/v1.0.3...v1.0.4) (2023-08-25)
 
 
