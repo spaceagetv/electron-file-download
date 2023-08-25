@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/spaceagetv/electron-file-download/compare/v1.0.5...v1.0.6) (2023-08-25)
+
+
+### Bug Fixes
+
+* rename ([57cc30d](https://github.com/spaceagetv/electron-file-download/commit/57cc30d22a702b73c5e2078cfe6ade9181e142b2))
+
 ## [1.0.5](https://github.com/spaceagetv/electron-file-download/compare/v1.0.4...v1.0.5) (2023-08-25)
 
 
