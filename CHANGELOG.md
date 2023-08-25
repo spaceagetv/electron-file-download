@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/spaceagetv/electron-file-download/compare/v1.0.6...v1.0.7) (2023-08-25)
+
+
+### Bug Fixes
+
+* scope ([18d0bec](https://github.com/spaceagetv/electron-file-download/commit/18d0becea021a43da735f5fbf3778f90680fa2b9))
+
 ## [1.0.6](https://github.com/spaceagetv/electron-file-download/compare/v1.0.5...v1.0.6) (2023-08-25)
 
 
